@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "royaltyInfo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "_receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_royaltyAmount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Interface for the ERC2981 - Token Royalty standard",
+			"kind": "dev",
+			"methods": {
+				"royaltyInfo(uint256,uint256)": {
+					"params": {
+						"_tokenId": "- the NFT asset queried for royalty information",
+						"_value": "- the sale price of the NFT asset specified by _tokenId"
+					},
+					"returns": {
+						"_receiver": "- address of who should be sent the royalty payment",
+						"_royaltyAmount": "- the royalty payment amount for value sale price"
+					}
+				}
+			},
+			"title": "IERC2981Royalties",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TubbyReindeer_flat.sol": "IERC2981Royalties"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TubbyReindeer_flat.sol": {
+			"keccak256": "0x0cabcef0ee04dbd9cf08061ff23d28373b8b07ff116d57e2daef1685ef6b8428",
+			"urls": [
+				"bzz-raw://9f968ed30129273ae08bfc902c9ed2f455597ba27d679aae5feb198e551f9178",
+				"dweb:/ipfs/QmYrjNkFaQwf5PFQjeUv11Jes9onaVk7FyFm4DyR59EMyy"
+			]
+		}
+	},
+	"version": 1
+}

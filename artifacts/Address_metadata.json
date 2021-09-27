@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TubbyReindeer_flat.sol": "Address"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TubbyReindeer_flat.sol": {
+			"keccak256": "0x0cabcef0ee04dbd9cf08061ff23d28373b8b07ff116d57e2daef1685ef6b8428",
+			"urls": [
+				"bzz-raw://9f968ed30129273ae08bfc902c9ed2f455597ba27d679aae5feb198e551f9178",
+				"dweb:/ipfs/QmYrjNkFaQwf5PFQjeUv11Jes9onaVk7FyFm4DyR59EMyy"
+			]
+		}
+	},
+	"version": 1
+}
